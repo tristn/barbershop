@@ -50,7 +50,7 @@ export const SidebarMenu = styled.ul`
 
 export const SidebarLink = styled(LinkS)`
   display: flex;
-  alight-items: center;
+  align-items: center;
   justify-content: center;
   font-size: 1.5rem;
   text-decoration: none;
