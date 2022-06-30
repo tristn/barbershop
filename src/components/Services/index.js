@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-2.svg';
-import Icon3 from '../../images/svg-3.svg';
+import Icon2 from '../../images/booking.svg';
+import Icon3 from '../../images/reward.svg';
 import {
   ServicesContainer,
   ServicesH1,
@@ -20,23 +20,24 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Reduce expenses</ServicesH2>
+            <ServicesH2>Tailored Experience</ServicesH2>
             <ServicesP>
-              We help reduce your fees and increase your overall revenue
+              Book with your favorite barber that has experience with your hair.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Virtual Offices</ServicesH2>
+            <ServicesH2>Book Online</ServicesH2>
             <ServicesP>
-              You can access our platform online anywhere in the world.
+              Booking online makes getting an appointment easier than ever!
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
             <ServicesH2>Premium Benefits</ServicesH2>
             <ServicesP>
-              Unlock our special membership card that returns 5% cash back.
+              We value our regular customers, and use a REWARDS system to show
+              our appreciation.
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>
